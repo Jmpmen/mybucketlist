@@ -82,6 +82,10 @@ h3 {
   padding: 0 20px;
 }
 
+.logo {
+  font-weight: 700;
+}
+
 .heading p {
   color: #828282;
 }
