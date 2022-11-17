@@ -47,7 +47,7 @@ function Dashboard() {
       </section>
 
       <section className='content'>
-      <button className={showAdd ? 'btn btn-close' : 'btn'} onClick={onToggleAdd}>{showAdd ? 'Close' : 'Add a Goal'}</button>
+      <button className={showAdd ? 'btn incomplete-btn' : 'btn'} onClick={onToggleAdd}>{showAdd ? 'Close' : 'Add a Goal'}</button>
         {showAdd && <GoalForm />}
         {goals.length > 0 ? (
           <div className='goals'>

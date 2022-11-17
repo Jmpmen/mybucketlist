@@ -48,7 +48,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid green;
   margin-bottom: 60px;
 }
 
@@ -102,9 +102,10 @@ h3 {
 
 .goal {
   background-color: #f4f4f4;
-  margin: 10px 0;
+  margin: 20px 0;
   padding: 20px 0 10px;
   position: relative;
+  border-top: 1px solid green;
 }
 
 .goal .close {
@@ -153,9 +154,9 @@ h3 {
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid green;
+  border: 1px solid #000;
   border-radius: 5px;
-  background: green;
+  background: #000;
   color: #fff;
   font-size: 12px;
   font-weight: 700;
