@@ -87,7 +87,8 @@ h3 {
 }
 
 .name {
-  color: rgb(90, 14, 0);
+  color: green;
+  font-weight: 700;
 }
 
 .goals {
