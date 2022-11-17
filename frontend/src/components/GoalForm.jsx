@@ -18,7 +18,7 @@ function GoalForm() {
     <section className='form'>
       <form onSubmit={onSubmit}>
         <div className='form-group'>
-          <label htmlFor='text'>New Bucket</label>
+          <label htmlFor='text'>New Goal</label>
           <input
             type='text'
             name='text'

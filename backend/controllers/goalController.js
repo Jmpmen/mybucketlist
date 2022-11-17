@@ -52,11 +52,14 @@ const updateGoal = asyncHandler(async (req, res) => {
     throw new Error('User not authorized')
   }
 
-  const updatedGoal = await Goal.findByIdAndUpdate(req.params.id, req.body, {
-    new: true,
-  })
-
-  res.status(200).json(updatedGoal)
+  const updatedGoal = await Goal.findByIdAndUpdate(
+    { _id: req.params.id },
+    [{
+      $set: { completed: {$not: '$completed'} }
+    }])
+  
+  res.status(200).redirect('')
+  // res.status(200).json(updatedGoal)
 })
 
 // @desc    Delete goal

@@ -47,7 +47,7 @@ function Dashboard() {
       </section>
 
       <section className='content'>
-      <button className={showAdd ? 'btn btn-close' : 'btn'} onClick={onToggleAdd}>{showAdd ? 'Close' : 'Add A Bucket'}</button>
+      <button className={showAdd ? 'btn btn-close' : 'btn'} onClick={onToggleAdd}>{showAdd ? 'Close' : 'Add a Goal'}</button>
         {showAdd && <GoalForm />}
         {goals.length > 0 ? (
           <div className='goals'>
@@ -56,7 +56,7 @@ function Dashboard() {
             ))}
           </div>
         ) : (
-          <h3>No Bucket List to show</h3>
+          <h3>Bucket List is empty</h3>
         )}
       </section>
     </>
