@@ -1,6 +1,5 @@
 import { useDispatch } from 'react-redux'
 import { FiTrash } from 'react-icons/fi'
-import { FaCheck } from 'react-icons/fa'
 import { updateGoal, deleteGoal } from '../features/goals/goalSlice'
 
 function GoalItem({ goal }) {
