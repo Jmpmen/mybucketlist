@@ -56,7 +56,7 @@ function Dashboard() {
             ))}
           </div>
         ) : (
-          <h3>Bucket List is empty</h3>
+          <h3 class='bucketh3'>Bucket List is empty</h3>
         )}
       </section>
     </>
