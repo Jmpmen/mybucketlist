@@ -8,11 +8,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background: black;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 
 p {
@@ -67,6 +69,7 @@ h3 {
 .header ul li a {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .header ul li a:hover {
@@ -129,7 +132,7 @@ h3 {
 }
 
 .goal {
-  background-color: #f4f4f4;
+  background-color: #f4f4f41f;
   margin: 20px 0;
   padding: 20px 0 10px;
   position: relative;
@@ -159,6 +162,13 @@ h3 {
   margin: 0 auto;
 }
 
+.form {
+  background: #f4f4f41f;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
 .form-group {
   margin-bottom: 10px;
 }
@@ -182,9 +192,9 @@ h3 {
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid #000;
+  border: 1px solid green;
   border-radius: 5px;
-  background: #000;
+  background: green;
   color: #fff;
   font-size: 12px;
   font-weight: 700;
@@ -194,6 +204,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .complete-btn {
@@ -224,7 +235,8 @@ h3 {
 
 .btn-block {
   width: 100%;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .btn:hover, .complete-btn:hover, .incomplete-btn:hover {
