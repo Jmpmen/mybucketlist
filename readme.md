@@ -4,7 +4,7 @@ Your very own Bucket List App.
 
 This project was based on Traversy Media's Course. Please watch their video first.
 
-**Link to project:** https://mybucketlist-production.up.railway.app/
+**Link to project:** https://mybucketlist.onrender.com
 
 ![alt tag](https://github.com/Jmpmen/my-portfolio/blob/main/images/thumbs/03.jpg)
 
