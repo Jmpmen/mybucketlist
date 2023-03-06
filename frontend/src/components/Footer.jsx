@@ -4,7 +4,7 @@ function Footer() {
     return (
     <footer className='footer'>
       <div className='logo'>
-        <a href='https://jmpmen.netlify.app/' role='button'>James Michael Mendoza</a>
+        <a href='https://jmpmen.netlify.app/' role='button'>&copy; {new Date().getFullYear()} James Michael Mendoza</a>
       </div>
       <ul>
         <li><a href='https://github.com/Jmpmen' role='button'><FaGithub /></a></li>
